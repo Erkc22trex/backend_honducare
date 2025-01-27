@@ -105,6 +105,7 @@ const usuarioController = {
       const usuarios2 = usuarios.map(user => {
         return {
           id_usuario: user.id_usuario,
+          nombre_de_usuario: user.nombre_de_usuario,
           nombre_especialidad: user.nombre_de_usuario + ' - ' + user.especialidad.nombre,
         }
       });
